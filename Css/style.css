@@ -40,7 +40,34 @@
     .header-left{
         display: none;
     }
+    .logo-footer{
+        margin-left: 24px;
+    }
 }
+/* section */
+/* .bg-image{
+    background-image: url(../images/CTAImg-Wide-1440px+-New.png);
+    height: 450px;
+    max-width: 1440px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; */
+}
+.section-div{
+    width: 1440px;
+    height: 564px;
+    display: flex;
+    position: relative;
+}
+.text-div{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 300px;
+left: 400px;
+}
+
 /* Footer */
 .footer-container{
     max-width: 1140px;
